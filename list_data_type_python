@@ -1,0 +1,19 @@
+List DataType in Python
+
+>>> list_numbers = [1,2,3]
+>>> print(list_numbers)
+[1, 2, 3]
+>>> list_chars = ['a','b','c']
+>>> print(list_chars)
+['a', 'b', 'c']
+>>> list_mix = list_numbers + list_chars
+>>> print(list_mix)
+[1, 2, 3, 'a', 'b', 'c']
+>>> list_mix[0]
+1
+>>> list_mix[-1]
+'c'
+>>> len(list_numbers)
+3
+>>> len(list_mix)
+6
