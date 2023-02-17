@@ -17,3 +17,23 @@ List DataType in Python
 3
 >>> len(list_mix)
 6
+>>> min(list_numbers)
+1
+>>> max(list_numbers)
+3
+>>> sum(list_numbers)
+6
+>>> 'd' in list_chars
+False
+>>> 'a' in list_chars
+True
+>>> 'a' in ['a','b','c']
+True
+>>> 'b' not in list_chars
+False
+>>> 'd' not in list_chars
+True
+>>> list_new = [3,5,7,4,2]
+>>> list1 = sorted(list_new)
+>>> print(list1)
+[2, 3, 4, 5, 7]
